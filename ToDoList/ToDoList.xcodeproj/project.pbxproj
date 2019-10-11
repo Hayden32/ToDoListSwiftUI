@@ -14,6 +14,7 @@
 		EFA4ABF62350D4E800B8FC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA4ABF52350D4E800B8FC06 /* Assets.xcassets */; };
 		EFA4ABF92350D4E800B8FC06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA4ABF82350D4E800B8FC06 /* Preview Assets.xcassets */; };
 		EFA4ABFC2350D4E800B8FC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA4ABFA2350D4E800B8FC06 /* LaunchScreen.storyboard */; };
+		EFA4AC052350D70C00B8FC06 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4AC042350D70C00B8FC06 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EFA4ABF82350D4E800B8FC06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFA4ABFB2350D4E800B8FC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA4ABFD2350D4E800B8FC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA4AC042350D70C00B8FC06 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				EFA4ABF32350D4E700B8FC06 /* ContentView.swift */,
+				EFA4AC042350D70C00B8FC06 /* ToDoItem.swift */,
 				EFA4ABFA2350D4E800B8FC06 /* LaunchScreen.storyboard */,
 				EFA4ABF02350D4E700B8FC06 /* ToDoList.xcdatamodeld */,
 				EFA4AC032350D50F00B8FC06 /* Resources */,
@@ -159,6 +162,7 @@
 			files = (
 				EFA4ABED2350D4E700B8FC06 /* AppDelegate.swift in Sources */,
 				EFA4ABF22350D4E700B8FC06 /* ToDoList.xcdatamodeld in Sources */,
+				EFA4AC052350D70C00B8FC06 /* ToDoItem.swift in Sources */,
 				EFA4ABF42350D4E700B8FC06 /* ContentView.swift in Sources */,
 				EFA4ABEF2350D4E700B8FC06 /* SceneDelegate.swift in Sources */,
 			);
